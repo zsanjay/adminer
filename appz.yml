@@ -15,7 +15,9 @@ deploy:
     replicas: 1
     port:
     - 8080
-
   
 properties:
-    revision : 25
+    revision : 27
+    #MFA_PROVIDER : GA
+    AUTHSECRET: 
+        vault : ADMINER_AUTHSECRET
